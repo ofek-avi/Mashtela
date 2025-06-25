@@ -1,0 +1,21 @@
+.branch {
+  direction: rtl;
+  text-align: right;
+  margin: 15px 0;
+  font-family: 'Varela Round', Arial, sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 12px;
+}
+a {
+  text-decoration: underline;
+  color: #2d572c;
+  font-weight: bold;
+}
+a:hover {
+  color: #388e3c;
+}

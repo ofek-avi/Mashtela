@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #f8fff8;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #3e8e41;
+  padding: 1rem;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,62 @@
+<div class="plant-page" dir="rtl">
+  <div class="plant-form">
+    <label>שם עץ:</label>
+    <input [(ngModel)]="name" placeholder="לדוג' לימון" />
+    <br />
+    <label>קטגוריה:</label>
+    <select [(ngModel)]="category">
+      <option value="">בחר</option>
+      <option>פרי</option>
+      <option>תבלין</option>
+      <option>נוי</option>
+      <option>ירק</option>
+      <option>אחר</option>
+    </select>
+    <br />
+    <label>מחיר:</label>
+    <input [(ngModel)]="price" type="number" min="0" />
+    <br />
+    <label>כמות:</label>
+    <input [(ngModel)]="quantity" type="number" min="0" />
+    <br />
+    <button (click)="calculateTotal()">חשב</button>
+    <button (click)="resetForm()">נקה</button>
+    <div *ngIf="total > 0">
+      <p>מחיר כולל: {{ total }} ש"ח</p>
+    </div>
+    <div *ngIf="errorMsg" class="alert-msg">{{ errorMsg }}</div>
+  </div>
+
+  <!-- היסטוריית חישובים -->
+  <div *ngIf="plants.length > 0" class="plant-history">
+    <h4>היסטוריית חישובים:</h4>
+    <button (click)="clearHistory()" class="clear-history-btn">
+      נקה היסטוריה
+    </button>
+    <table>
+      <thead>
+        <tr>
+          <th>שם</th>
+          <th>קטגוריה</th>
+          <th>מחיר</th>
+          <th>כמות</th>
+          <th>מחיר כולל</th>
+          <th>תאריך</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let p of plants">
+          <td>{{ p.name }}</td>
+          <td>{{ p.category }}</td>
+          <td>{{ p.price }}</td>
+          <td>{{ p.quantity }}</td>
+          <td>{{ p.total }}</td>
+          <td>{{ p.date }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="total-sum">
+      <b>מחיר כולל של כל החישובים: {{ totalSum }} ש"ח</b>
+    </div>
+  </div>
+</div>

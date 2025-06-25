@@ -1,0 +1,43 @@
+.homepage {
+  background-image: url('https://sloner.co.il/wp-content/uploads/2019/03/%D7%97%D7%9E%D7%9E%D7%AA-%D7%A6%D7%9E%D7%97%D7%99-%D7%92%D7%9F-%D7%A4%D7%95%D7%A8%D7%97%D7%99%D7%9D-%D7%9E%D7%A9%D7%AA%D7%9C%D7%AA-%D7%A1%D7%9C%D7%95%D7%A0%D7%A8.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.homepage-overlay {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.title {
+  font-size: 3rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.shop-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background-color: #388e3c;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #2e7d32;
+}

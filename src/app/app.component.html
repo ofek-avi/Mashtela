@@ -1,0 +1,7 @@
+<app-splash *ngIf="showSplash" (enter)="handleEnter()"></app-splash>
+<ng-container *ngIf="!showSplash">
+  <app-navigation></app-navigation>
+  <div style="margin-top: 70px;"></div>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</ng-container>

@@ -1,0 +1,35 @@
+<div class="contact-page" dir="rtl">
+  <h2 class="contact-title">צור קשר</h2>
+  <div class="contact-info">
+    טלפון: <b>050-1234567</b><br />
+    אימייל:
+    <a href="mailto:ofekavi1104&#64;gmail.com">
+      <b>ofekavi1104&#64;gmail.com</b> </a
+    ><br />
+    כתובת: שדרות ההסתדרות 200,חיפה
+  </div>
+
+  <form class="contact-form" (ngSubmit)="sendMessage()" *ngIf="!sent">
+    <label>
+      שם:
+      <input [(ngModel)]="name" name="name" required />
+    </label>
+    <label>
+      אימייל:
+      <input [(ngModel)]="email" name="email" type="email" required />
+    </label>
+    <label>
+      הודעה:
+      <textarea
+        [(ngModel)]="message"
+        name="message"
+        rows="4"
+        required
+      ></textarea>
+    </label>
+    <button type="submit">שלח</button>
+  </form>
+  <div *ngIf="sent" class="contact-success">
+    תודה על פנייתך! נחזור אליך בהקדם 🌱
+  </div>
+</div>

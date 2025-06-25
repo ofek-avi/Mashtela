@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  align-items: center;
+  background: #e6ffe6;
+  padding: 18px;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 2px 8px #b8e0b8;
+}
+header img {
+  margin-left: 24px;
+  border-radius: 50%;
+  border: 3px solid #b8e0b8;
+  box-shadow: 0 2px 8px #a1d8a1;
+}
+header h1 {
+  margin: 0;
+  color: #2d572c;
+  font-family: 'Varela Round', Arial, sans-serif;
+}
+header h2 {
+  margin: 0;
+  color: #4e944f;
+  font-size: 1.2em;
+  font-family: 'Varela Round', Arial, sans-serif;
+}

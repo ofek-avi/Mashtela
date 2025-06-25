@@ -1,0 +1,134 @@
+.products-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 0;
+  font-family: 'Varela Round', Arial, sans-serif;
+}
+
+.products-title {
+  color: #2d572c;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+  background: #f8fff8;
+}
+
+.products-table th,
+.products-table td {
+  border: 1px solid #b8e0b8;
+  padding: 10px 8px;
+  text-align: center;
+}
+
+.products-table th {
+  background: #eaffea;
+  color: #2d572c;
+}
+
+.products-table tr:nth-child(even) {
+  background: #f1f8e9;
+}
+
+.out-of-stock {
+  color: red;
+  font-weight: bold;
+}
+
+.cart-box {
+  margin-top: 32px;
+  background: #f1f8e9;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 1px 6px #c2e0c2;
+}
+
+.cart-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-box th,
+.cart-box td {
+  border: 1px solid #b8e0b8;
+  padding: 8px;
+  text-align: center;
+}
+
+.checkout-form {
+  margin-top: 32px;
+  background: #eaffea;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 1px 6px #c2e0c2;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 12px;
+  color: #2d572c;
+}
+
+.checkout-form input {
+  margin-right: 8px;
+  border: 1px solid #b8e0b8;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.message-box {
+  margin-top: 16px;
+  color: #2d572c;
+  font-weight: bold;
+  text-align: center;
+}
+.products-table th {
+  background: #ffe066;
+  color: #7a2b6c;
+  font-size: 1.1em;
+}
+.products-table {
+  background: #fffbe6;
+}
+.products-table th,
+.products-table td {
+  border: 1px solid #b8e0b8;
+  padding: 10px 8px;
+  text-align: center;
+}
+.products-table tr:nth-child(even) {
+  background: #fff9e3;
+}
+.out-of-stock {
+  color: red;
+  font-weight: bold;
+}
+.desc-btn {
+  background: #ffe066;
+  color: #7a2b6c;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.desc-popup {
+  background: #fffbe6;
+  border: 1px solid #b8e0b8;
+  border-radius: 7px;
+  padding: 8px 12px;
+  margin-top: 4px;
+  font-size: 0.95em;
+  color: #2d572c;
+  min-width: 120px;
+  box-shadow: 0 1px 4px #e0e0e0;
+}

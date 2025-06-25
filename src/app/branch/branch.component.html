@@ -1,0 +1,15 @@
+<div class="branch" dir="rtl">
+  <h3>רשימת סניפים:</h3>
+  <ul>
+    <li *ngFor="let branch of branches">
+      <b>{{ branch.name }}</b> – {{ branch.address }}
+      <a
+        [href]="branch.map"
+        target="_blank"
+        style="margin-right:10px; color:#2d572c;"
+      >
+        הצג במפה
+      </a>
+    </li>
+  </ul>
+</div>

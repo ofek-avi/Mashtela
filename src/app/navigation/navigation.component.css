@@ -1,0 +1,29 @@
+nav {
+  background: #c2f0c2;
+  padding: 12px;
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 12px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  margin: 0 18px;
+  text-decoration: none;
+  color: #2d572c;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #4e944f;
+}
