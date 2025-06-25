@@ -39,16 +39,21 @@
 
 ```
 src/
-├── app/
-│   ├── components/        # רכיבי UI
-│   ├── pages/             # דפי האתר (בית, קטלוג, צור קשר וכו')
-│   ├── services/          # שירותים (כמו סל קניות)
-│   ├── models/            # ממשקים (interfaces) של מוצרים ועוד
-│   └── app-routing.module.ts
-│
-├── assets/                # תמונות
-├── environments/          # קבצי סביבה
-└── index.html             # קובץ ראשי
+├── index.html
+├── global_styles.css
+├── main.ts
+└── app/
+    ├── app.component.ts / html / css
+    ├── app.routes.ts
+    ├── splash/           # עמוד פתיחה
+    ├── home/             # דף הבית
+    ├── about/            # על המשתלה
+    ├── plant/            # צמח מסוים
+    ├── branch/           # סניפים
+    ├── footer/           # אזור תחתון
+    ├── header/           # תפריט עליון
+    ├── contact/          # צור קשר
+    └── products/         # קטלוג צמחים
 ```
 
 ## ✨ פיצ'רים עיקריים
