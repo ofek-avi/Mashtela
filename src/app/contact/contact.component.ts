@@ -18,7 +18,7 @@ export class ContactComponent {
   sendMessage() {
     if (this.name && this.email && this.message) {
       this.sent = true;
-      // כאן אפשר להוסיף שליחת אימייל או פנייה לשרת
+     
       this.name = '';
       this.email = '';
       this.message = '';

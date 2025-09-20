@@ -1,25 +1,54 @@
 header {
   display: flex;
   align-items: center;
-  background: #e6ffe6;
-  padding: 18px;
-  border-radius: 0 0 12px 12px;
-  box-shadow: 0 2px 8px #b8e0b8;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #e6ffe6 65%, #f5f9e6 100%);
+  padding: 24px 32px;
+  max-width: 420px;
+  margin: 28px auto;
+  border-radius: 28px 20px 28px 20px;
+  box-shadow: 0 8px 24px #89e071;
+  gap: 18px;
+  transition: box-shadow 0.2s;
 }
+
+header:hover {
+  box-shadow: 0 12px 29px #cbdec2;
+}
+
 header img {
-  margin-left: 24px;
+  width: 80px;
+  height: 90px;
+  margin-left: 0;
   border-radius: 50%;
-  border: 3px solid #b8e0b8;
-  box-shadow: 0 2px 8px #a1d8a1;
+  border: 4px solid #0d0e01;
+  box-shadow: 0 3px 12px rgb(14, 105, 14);
+  object-fit: cover;
+  background: #fff;
+  transition: transform 0.3s;
 }
+
+header img:hover {
+  transform: scale(1.07) rotate(-2deg);
+}
+
 header h1 {
-  margin: 0;
-  color: #2d572c;
+  margin: 0 0 7px 0;
+  color: #0060f0;
   font-family: 'Varela Round', Arial, sans-serif;
+  font-size: 2em;
+  line-height: 1.08;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 10px #d0ddd0;
 }
+
 header h2 {
   margin: 0;
-  color: #4e944f;
-  font-size: 1.2em;
+  color: #4281d3;
+  font-size: 1.1em;
   font-family: 'Varela Round', Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 7px #f6f6cc;
 }

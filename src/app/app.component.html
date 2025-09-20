@@ -2,6 +2,18 @@
 <ng-container *ngIf="!showSplash">
   <app-navigation></app-navigation>
   <div style="margin-top: 70px;"></div>
+
+  <div *ngIf="showCookiesBanner" class="cookie-modal">
+    <div class="cookie-inner">
+      האתר עושה שימוש בעוגיות לשיפור חוויית הגלישה ופרסום מותאם אישית.<br />
+      האם ברצונך לאשר עוגיות לא-הכרחיות?<br />
+      <button (click)="acceptCookies()">אני מסכים</button>
+      <button (click)="rejectCookies()">אני לא מסכים</button>
+      <br />
+      <a href="/privacy" target="_blank">מדיניות פרטיות</a>
+    </div>
+  </div>
+
   <router-outlet></router-outlet>
   <app-footer></app-footer>
 </ng-container>

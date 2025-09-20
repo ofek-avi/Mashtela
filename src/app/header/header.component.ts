@@ -9,7 +9,7 @@ export class HeaderComponent {
   title = ' אופק סעדון - משתלה';
   subtitle = this.getSubtitle();
   imgUrl =
-    'https://sloner.co.il/wp-content/uploads/2019/03/%D7%97%D7%9E%D7%9E%D7%AA-%D7%A6%D7%9E%D7%97%D7%99-%D7%92%D7%9F-%D7%A4%D7%95%D7%A8%D7%97%D7%99%D7%9D-%D7%9E%D7%A9%D7%AA%D7%9C%D7%AA-%D7%A1%D7%9C%D7%95%D7%A0%D7%A8.jpg';
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Theodor_Herz007.jpg/200px-Theodor_Herz007.jpg' ;
   imgWidth = 80;
   imgHeight = 80;
 

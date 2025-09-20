@@ -42,6 +42,7 @@
 
 .cart-box {
   margin-top: 32px;
+  margin-bottom: 120px;
   background: #f1f8e9;
   border-radius: 10px;
   padding: 18px;
@@ -61,14 +62,22 @@
 }
 
 .checkout-form {
-  margin-top: 32px;
-  background: #eaffea;
-  border-radius: 10px;
-  padding: 18px;
-  box-shadow: 0 1px 6px #c2e0c2;
-  max-width: 400px;
+  margin-top: 56px;
+  margin-bottom: 84px;
+  background: linear-gradient(120deg, #eaffea 90%, #c8e6c9 100%);
+  border-radius: 20px;
+  padding: 34px 24px 28px 24px;
+  box-shadow: 0 4px 24px #b8e0b888, 0 2px 10px #c2e0c2;
+  max-width: 460px;
+  width: 97%;
   margin-left: auto;
   margin-right: auto;
+  z-index: 10;
+  transition: box-shadow 0.18s;
+}
+
+.checkout-form:hover {
+  box-shadow: 0 8px 36px #90c090aa, 0 2px 10px #c2e0c2ee;
 }
 
 .checkout-form label {
@@ -78,14 +87,19 @@
 }
 
 .checkout-form input {
-  margin-right: 8px;
-  border: 1px solid #b8e0b8;
+  width: 100%;
+  max-width: 240px;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+  border: 1px solid #0e0e0e;
   border-radius: 4px;
   padding: 4px 8px;
+  display: block;
 }
 
 .message-box {
-  margin-top: 16px;
+  margin-top: 0px;
+  margin-bottom: 90px;
   color: #2d572c;
   font-weight: bold;
   text-align: center;
@@ -97,6 +111,7 @@
 }
 .products-table {
   background: #fffbe6;
+  margin-bottom: 80px;
 }
 .products-table th,
 .products-table td {
