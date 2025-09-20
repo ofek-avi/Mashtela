@@ -15,13 +15,13 @@
 ## 📸 תמונות מסך
 
 #### 🔹 מסך פתיחה
-![מסך פתיחה](./screenshots/splash.png)
+![מסך פתיחה](./splash.png)
 
 #### 🔹 דף הבית
-![דף הבית](./screenshots/home.png)
+![דף הבית](./home.png)
 
 #### 🔹 קטלוג הצמחים
-![קטלוג](./screenshots/catalog.png)
+![קטלוג](./catalog.png)
 
 ## 🧩 טכנולוגיות בשימוש
 - **Angular** – קומפוננטות, ניתוב בין עמודים (`RouterModule`)
